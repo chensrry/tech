@@ -1,0 +1,18 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.main{
+    flex: 1;
+}
+
+.footer{
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    background: #F3F4F5;
+}

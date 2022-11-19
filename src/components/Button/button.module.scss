@@ -1,0 +1,25 @@
+
+
+.button{
+    height: 32px;
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #232631;
+    border-radius: 4px;
+    cursor: pointer;
+    &.primary {
+        background: #232631;
+        color: #fff;
+        margin-left: 12px;
+        
+    }
+    &.gost {
+        background: #fff;
+        color: #000;
+    }
+}
+
+
+

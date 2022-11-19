@@ -1,0 +1,13 @@
+.marjor_box{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    .marjor_item{
+        width: 360px;
+        height: 180px;
+        img{
+            width: 360px;
+            height: 180px;
+        }
+    }
+}

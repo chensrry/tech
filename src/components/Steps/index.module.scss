@@ -1,0 +1,17 @@
+.steps_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .step_item{
+        position: relative;
+        flex: 1;
+        text-align: center;
+        .step_arrow{
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #000;
+        }
+    }
+}
